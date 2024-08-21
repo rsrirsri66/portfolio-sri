@@ -1,17 +1,20 @@
-import img from "../images/Screenshot 2024-03-30 194221.png"
-import img1 from "../images/Screenshot 2024-03-30 214006.png"
-import img2 from "../images/Ecom.png"
-import img3 from "../images/bookmark dash.png"
+// import img from "../images/Screenshot 2024-03-30 194221.png"
+// import img1 from "../images/Screenshot 2024-03-30 214006.png"
+// import img2 from "../images/Ecom.png"
+// import img3 from "../images/bookmark dash.png"
+// import img4 from "../images/Screenshot 2024-08-21 144416.png"
+// import img5 from "../images/art.png"
+// import img6 from "../images/ecom (2).png"
 export const Bio = {
   name: "Sridharan R",
   roles: [
-    "Full Stack Developer",
+    "Full Stack Developer Trainer",
   ],
   description:
-    "To secure a challenging position as a Software Developer in a fast-paced environment, where I can apply my expertise in developing web applications and software solutions using Agile methodologies to ensure efficient project delivery and collaboration.",
+   "As a Full Stack Developer Trainer, I am dedicated to equipping aspiring developers with the skills needed to excel in modern web development. My focus is on teaching comprehensive development practices, including front-end and back-end technologies. My goal is to foster a collaborative learning environment where students can thrive and build real-world applications.",
   github: "https://github.com/rsrirsri66",
-  resume:
-    "https://drive.google.com/file/d/1wMRPXNAfalvqpihikUjmzIWOTld0M1OV/view?usp=drivesdk",
+  // resume:
+  //   "https://drive.google.com/file/d/1wMRPXNAfalvqpihikUjmzIWOTld0M1OV/view?usp=drivesdk",
   linkedin: "www.linkedin.com/in/sridharan-ravichandran-0b4593253",
   twitter: "https://x.com/SriSri17554432?t=q4BD4OIqmLE3EFtVFhB5Dw&s=09",
   insta: "https://www.instagram.com/mr_july1?igsh=ZWd2YnU2NWlicHc0",
@@ -114,11 +117,11 @@ export const skills = [
         image:
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
-      {
-        name: "GitLab",
-        image:
-          "https://static-00.iconduck.com/assets.00/gitlab-icon-256x236-9n5ue93d.png",
-      },
+      // {
+      //   name: "GitLab",
+      //   image:
+      //     "https://static-00.iconduck.com/assets.00/gitlab-icon-256x236-9n5ue93d.png",
+      // },
       {
         name: "TablePlus",
         image:
@@ -169,30 +172,34 @@ export const skills = [
 ];
 
 export const experiences = [
- 
   {
     id: 4,
-    img: "https://entrackr.com/storage/2023/04/Imarticus.jpg",
-    role: "Full-Stack Developer Intern",
-    company: "Imarticus Learning",
-    date: "April 2023 - Jan 2024",
-    desc: "Engineered dynamic front-end features with HTML, CSS, JavaScript, and React, elevating user experience.Implemented robust back-end functionalities using Node.js,PostgreSQL for data consistency, and MongoDB for efficient storage and retrieval, ensuring a comprehensive web application.",
+    img: "https://miro.medium.com/v2/resize:fit:1000/1*ktYnT1qQRQ1ouWVdex0lxg.png",
+    role: "Full-Stack Developer Trainer",
+
+    date: "2023-present",
+    desc: "Trained and mentored aspiring developers in full-stack development, covering both front-end and back-end technologies. Designed and delivered comprehensive course material on HTML, CSS, JavaScript, React, Node.js, PostgreSQL, and MongoDB. Facilitated hands-on projects and coding exercises to enhance students' practical skills and ensure their readiness for real-world challenges. Fostered a collaborative learning environment and provided personalized guidance to support student success.",
     skills: [
       "Java",
       "HTML5/CSS",
       "React JS",
-      "Java Script",
-      "Node Js",
-      "Postgresql",
+      "JavaScript",
+      "Node.js",
+      "MySQL",
+      "PostgreSQL",
       "Firebase",
       "MongoDB",
       "AWS",
     ],
-    doc: [img],
+   
   },
 ];
 
+
 export const education = [
+  
+  
+  
   {
     id: 0,
     img: "https://jit.ac.in/assets/uploads/2022/05/jit-logo-optimized.png",
@@ -204,7 +211,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://spicschool.com/wp-content/uploads/2024/02/School-Logo.png",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9cZdhy_L8-Tzhgy1FXdUaOscDEbI6Iu7e-Q&s",
     school: "Spic School, Tuticorin",
     year: "2018 - 2019",
     grade: "70%",
@@ -213,7 +220,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://spicschool.com/wp-content/uploads/2024/02/School-Logo.png",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9cZdhy_L8-Tzhgy1FXdUaOscDEbI6Iu7e-Q&s",
     school: "Spic School, Tuticorin",
     year: "2017 - 2018",
     grade: "89%",
@@ -222,45 +229,83 @@ export const education = [
   },
 ];
 
-export const projects = [
-  {
-    id: 3,
-    title: "Movie Booking",
-    date: "Dec 2023",
-    description:
-      "A BookMyShow app clone made with React js,HTML/CSS.This is a interface of an application.",
-    image:
-      img1,
-    tags: ["React JS", "HTML5", "CSS", "Static web app"],
-    category: "frontend app",
-    github: "https://github.com/rsrirsri66/Frontend-react",
-    webapp: "https://moviebooking-sri.netlify.app",
-  },
-  {
-    id: 4,
-    title: "E-commerce Clone",
-    date: "Mar 2024",
-    description:
-      "A E-commerce app made with React JS.Single Page Application",
-    image: img2,
-    tags: ["React Js", "HTML/CSS", "Static web app"],
-    category: "frontend app",
-    github: "https://github.com/rsrirsri66/E-Commerce",
-  },
-  {
-    id: 5,
-    title: "Bookmarks Store App",
-    date: "Nov 2023",
-    description:
-      "I have Developed a Bookmark Pages app with secure phonenumber authentication, allowing users to save HTTP links with tags, titles, and descriptions. Implemented duplicate link prevention. User-friendly features include updating info,filtering, and searching by tags, titles, and descriptions.",
-    image: img3 ,
-    tags: ["React Js", "Node JS", "Postgresql"],
-    category: "web app",
-    github: "https://github.com/rsrirsri66/BookmarkProject",
-    webapp: "https://bookmarkswebapp.netlify.app",
-  },
-];
+// export const projects = [
 
+//   {
+//     id: 6,
+//     title: "Art School",
+//     date: "Aug 2024 - Demo",
+//     description:
+//       "I have Developed a static website for my client to his Art school using HTML, CSS & Bootstrap, Which has about us, contact, courses, my gallery, home page.",
+//     image: img5 ,
+//     tags: ["HTML", "CSS", "Bootstrap"],
+//     category: "frontend app",
+//     github: "https://github.com/rsrirsri66/ArtSchool_static",
+//     webapp: "https://art-school-static.netlify.app",
+//   },
+//   {
+//     id: 3,
+//     title: "Movie Booking",
+//     date: "Dec 2023 - Demo",
+//     description:
+//       "A BookMyShow app clone made with React js,HTML/CSS.This is a interface of an application.",
+//     image:
+//       img1,
+//     tags: ["React JS", "HTML5", "CSS", "Static web app"],
+//     category: "frontend app",
+//     github: "https://github.com/rsrirsri66/Frontend-react",
+//     webapp: "https://moviebooking-sri.netlify.app",
+//   },
+//   {
+//     id: 5,
+//     title: "Bookmarks Store App",
+//     date: "Nov 2023 - Demo",
+//     description:
+//       "I have Developed a Bookmark Pages app with secure phonenumber authentication, allowing users to save HTTP links with tags, titles, and descriptions. Implemented duplicate link prevention. User-friendly features include updating info,filtering, and searching by tags, titles, and descriptions.",
+//     image: img3 ,
+//     tags: ["React Js", "Node JS", "Postgresql"],
+//     category: "web app",
+//     github: "https://github.com/rsrirsri66/BookmarkProject",
+//     webapp: "https://bookmarkswebapp.netlify.app",
+//   },
+//   {
+//     id: 4,
+//     title: "E-commerce Clone",
+//     date: "Mar 2024 - No Demo",
+//     description:
+//       "A E-commerce app made with React JS.Single Page Application.",
+//     image: img2,
+//     tags: ["React Js", "HTML/CSS", "Static web app"],
+//     category: "frontend app",
+//     github: "https://github.com/rsrirsri66/E-Commerce",
+    
+//   },
+//   {
+//     id: 7,
+//     title: "E-commerce-Moblie Sales",
+//     date: "Aug 2024 - No Demo",
+//     description:
+//       "I had Developed real time E-commerce website for Mobile shop. Using React js, Node, MySQL, JWT token for Auth. Github fro backend-https://github.com/rsrirsri66/E-com-Backend",
+//     image: img6 ,
+//     tags: ["React Js", "Node JS", "MySQL"],
+//     category: "web app",
+//     github: "https://github.com/rsrirsri66/E-com-Frontend",
+   
+//   }
+
+// ];
+  // {
+  //   id: 7,
+  //   title: "E-commerce Clone",
+  //   date: "Mar 2024",
+  //   description:
+  //     "A BookShelf application that is used to search books and store as bookmark  React JS.Single Page Application",
+  //   image: img2,
+  //   tags: ["React Js", "HTML/CSS", "Static web app"],
+  //   category: "frontend app",
+  //   github: "https://github.com/rsrirsri66/Personal_BookShelf",
+    
+  // }
 // export const TimeLineData = [
 //   { year: 2017, text: "Started my journey" },
 //   { year: 2018, text: "Worked as a freelance developer" },
